@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Online Auction</title>
+        <link rel="stylesheet" href="../static/css/nav.css">
+        <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    </head>
+    <body>
+        <p class="hhhh">
+            Where the Wolrld goes to shop
+            <span>
+              Online Auction
+            </span>
+            &mdash; don't miss just bid &mdash;
+          </p>
+        <div class="khali">    
+        <div class="wrapper">
+            <div class="ffuk">
+                <ul>
+                    <li><a href="http://127.0.0.1:5050/home">Home</a></li>
+                    <li><a href="items/additem">Add Item</a></li>
+                    <li><a href="future">Future Auction</a></li>
+                    <li><a href="log">Log</a></li>
+                    <li><a href="myprofile">My Profile</a></li>
+                    <li><a href="logout">Logout</a></li>
+                    <!-- <li><a href="#"></a></li> -->
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            {% block content %}
+            {% endblock %}
+            
+        </div>
+        <script type="text/javascript">
+            (function(d, m){
+                var kommunicateSettings = 
+                    {"appId":"2e49bbbc14f25c3c310629bfd01bda9c7","popupWidget":true,"automaticChatOpenOnNavigation":true};
+                var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+                s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+                var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+                window.kommunicate = m; m._globals = kommunicateSettings;
+            })(document, window.kommunicate || {});
+        /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+        </script>
+    </body>
+</html>
