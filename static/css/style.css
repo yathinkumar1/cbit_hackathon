@@ -51,7 +51,12 @@ body{
 }
 .left{
     height: 100%;
-    background: url("../img/29706.jpg") no-repeat center;
+    background: url("../img/29706.jpeg") no-repeat center;
+    background-size: cover;
+}
+.left1{
+    height: 100%;
+    background: url("../img/3.jpg") no-repeat center;
     background-size: cover;
 }
 .right{

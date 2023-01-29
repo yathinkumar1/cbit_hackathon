@@ -7,7 +7,7 @@ h4{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.hhhh{
+/* .hhhh{
     font: 400 1em/1.5 "Neuton"; 
     background: #090d00; 
     box-shadow: 0 0px 8px 4px rgba(0, 0, 0, 0.719);
@@ -64,7 +64,7 @@ h4{
         0% { background-position: 0% 50%; }
         100% { background-position: 100% 50%; }
     }
-    
+     */
 
 table {
     background-color: rgb(235, 235, 235);
@@ -187,10 +187,9 @@ table {
     flex-wrap: wrap;
     background-color: #090d00;
     width: 100%;
-    top: 187px;
 	height: 90px;
 	border: #2c3e50;
-	box-shadow: 0 0px 8px 4px rgba(0, , 0, 0.719);
+	box-shadow: 0 0px 8px 4px rgba(0,0 , 0, 0.719);
     z-index: 1;
 }
 
@@ -263,7 +262,7 @@ table {
 
 .container{
     width: 100%;
-    margin-top: 287px;
+    margin-top: 25px;
     font-family: sans-serif ;
     letter-spacing: 1px;
 
